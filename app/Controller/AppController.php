@@ -65,7 +65,3 @@ public $components = array(
  
 }
 ?>
-=======
-class AppController extends Controller {
-}
->>>>>>> 65c5a04aba241ed790fea17317ace00ee2978451

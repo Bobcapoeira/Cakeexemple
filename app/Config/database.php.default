@@ -60,8 +60,19 @@
  * For Sql Server : http://msdn.microsoft.com/en-us/library/ms190356.aspx
  */
 class DATABASE_CONFIG {
+    
+    public $default = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => 'eu-cdbr-azure-west-a.cloudapp.net',
+		'login' => 'b637106f7f5a72',
+		'password' => '96da112e',
+		'database' => 'vladimiAD2eAdhc0',
+		'prefix' => '',
+		//'encoding' => 'utf8',
+	);
 
-	public $default = array(
+	/*public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
@@ -71,7 +82,7 @@ class DATABASE_CONFIG {
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
-
+       
 	public $test = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
@@ -81,5 +92,5 @@ class DATABASE_CONFIG {
 		'database' => 'test_database_name',
 		'prefix' => '',
 		//'encoding' => 'utf8',
-	);
+	);*/
 }
