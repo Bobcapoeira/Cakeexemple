@@ -90,8 +90,40 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
     </div>
    <div id="sliderFrame">
         <div id="slider">
+            
+            <?php echo $this->Html->link(
+					$this->Html->image('image-slider-6.jpg', array('alt' => $cakeDescription, 'border' => '0')),
+					'http://www.capoeira.ie/',
+					array('target' => '_blank', 'escape' => false)
+				);
+			?> <?php echo $this->Html->link(
+					$this->Html->image('image-slider-7.jpg', array('alt' => $cakeDescription, 'border' => '0')),
+					'http://www.capoeira.ie/',
+					array('target' => '_blank', 'escape' => false)
+				);
+			?> <?php echo $this->Html->link(
+					$this->Html->image('image-slider-8.jpg', array('alt' => $cakeDescription, 'border' => '0')),
+					'http://www.capoeira.ie/',
+					array('target' => '_blank', 'escape' => false)
+				);
+			?> <?php echo $this->Html->link(
+					$this->Html->image('image-slider-9.jpg', array('alt' => $cakeDescription, 'border' => '0')),
+					'http://www.capoeira.ie/',
+					array('target' => '_blank', 'escape' => false)
+				);
+			?> <?php echo $this->Html->link(
+					$this->Html->image('image-slider-6.jpg', array('alt' => $cakeDescription, 'border' => '0')),
+					'http://www.capoeira.ie/',
+					array('target' => '_blank', 'escape' => false)
+				);
+			?>
             <a href="http://www.youtube.com/watch?v=N1XYZOQrDQc" data-autovideo="1">
-                <img src="images/image-slider-6.jpg" alt="Welcome to Menucool Video Slider" />
+               <?php echo $this->Html->link(
+					$this->Html->image('image-slider-6.jpg', array('alt' => $cakeDescription, 'border' => '0')),
+					'http://www.capoeira.ie/',
+					array('target' => '_blank', 'escape' => false)
+				);
+			?> <img src="images/image-slider-6.jpg" alt="Welcome to Menucool Video Slider" />
             </a>
             <a class="video" href="http://www.youtube.com/watch?v=oRMOQ-rsEE4">
                 <b data-src="images/image-slider-7.jpg">Vimeo</b>
@@ -126,6 +158,7 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 
       <div class="row">
         <div class="col-sm-4">
+            
                 <img class="img-circle img-responsive text-center" src="images/image-slider-7.jpg">
             <h2>USERS</h2>
             <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
